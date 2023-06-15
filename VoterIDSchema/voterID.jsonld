@@ -5,8 +5,8 @@
         "@protected": true,
         "id": "@id",
         "type": "@type",
-        "VoterID schema": {
-          "@id": "https://raw.githubusercontent.com/mithesh16/PolygonIDSchemas/main/VoterIDSchema/voterID.jsonld",
+        "VoterIDschema": {
+          "@id": "https://raw.githubusercontent.com/mithesh16/PolygonIDSchemas/main/VoterIDSchema/voterID.jsonld#VoterID",
           "@context": {
             "@version": 1.1,
             "@protected": true,
