@@ -6,13 +6,13 @@
         "id": "@id",
         "type": "@type",
         "VoterID schema": {
-          "@id": "https://raw.githubusercontent.com/mithesh16/PolygonID/main/bc-v1.jsonld#BasicCredential",
+          "@id": "https://raw.githubusercontent.com/mithesh16/PolygonIDSchemas/main/VoterIDSchema/voterID.jsonld",
           "@context": {
             "@version": 1.1,
             "@protected": true,
             "id": "@id",
             "type": "@type",
-            "vocab": "https://raw.githubusercontent.com/mithesh16/PolygonID/main/basicCred.md#",
+            "vocab": "https://raw.githubusercontent.com/mithesh16/PolygonIDSchemas/main/VoterIDSchema/voterId-vocab.md#",
             "xsd": "http://www.w3.org/2001/XMLSchema#",
             
             "name": {"@id": "vocab:name","@type": "xsd:string"},
