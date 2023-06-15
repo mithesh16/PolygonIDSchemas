@@ -1,0 +1,29 @@
+{
+    "@context": [
+      {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "VoterID schema": {
+          "@id": "https://raw.githubusercontent.com/mithesh16/PolygonID/main/bc-v1.jsonld#BasicCredential",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "vocab": "https://raw.githubusercontent.com/mithesh16/PolygonID/main/basicCred.md#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            
+            "name": {"@id": "vocab:name","@type": "xsd:string"},
+            "phone-number": {"@id": "vocab:phone-number","@type": "xsd:string"},
+            "email": { "@id": "vocab:email","@type": "xsd:string"},
+            "school":{ "@id": "vocab:school","@type":"xsd:string"},
+            "branch":{ "@id": "vocab:branch","@type":"xsd:string"},
+            "class":{ "@id": "vocab:class","@type":"xsd:integer"}
+          }
+        }
+    }
+    ]
+  }
+  
