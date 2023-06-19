@@ -115,7 +115,7 @@
             "properties": {
                 "id": {"title": "Credential Subject ID","type": "string"},
                 "name": {"type": "string"},
-                "phone-number": {"type": "string"},
+                "phone": {"type": "string"},
                 "email": {"type": "string"},
                 "school":{"type":"string"},
                 "branch":{"type":"string"},
