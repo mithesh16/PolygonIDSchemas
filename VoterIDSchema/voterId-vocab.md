@@ -7,9 +7,9 @@ name represents subject name as string value.
   "name": "Vedanth Padigelwar"
 ```
 
-# phone-number
+# phone
 
-phone-number represents subject phone number as string value.
+phone number represents subject phone number as string value.
 
 ```
   "phone-number": "9923492012"
