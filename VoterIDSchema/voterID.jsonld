@@ -5,7 +5,7 @@
         "@protected": true,
         "id": "@id",
         "type": "@type",
-        "VoterIDschema": {
+        "VoterID": {
           "@id": "https://raw.githubusercontent.com/mithesh16/PolygonIDSchemas/main/VoterIDSchema/voterID.jsonld#VoterID",
           "@context": {
             "@version": 1.1,
@@ -16,7 +16,7 @@
             "xsd": "http://www.w3.org/2001/XMLSchema#",
             
             "name": {"@id": "vocab:name","@type": "xsd:string"},
-            "phone-number": {"@id": "vocab:phone-number","@type": "xsd:string"},
+            "phone": {"@id": "vocab:phone","@type": "xsd:string"},
             "email": { "@id": "vocab:email","@type": "xsd:string"},
             "school":{ "@id": "vocab:school","@type":"xsd:string"},
             "branch":{ "@id": "vocab:branch","@type":"xsd:string"},
