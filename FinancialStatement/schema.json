@@ -3,8 +3,8 @@
     "type": "object",
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://raw.githubusercontent.com/mithesh16/PolygonIDSchemas/main/VoterIDSchema/voterID.jsonld",
-            "jsonSchema": "https://raw.githubusercontent.com/mithesh16/PolygonIDSchemas/main/VoterIDSchema/voterId.json"
+            "jsonLdContext": "https://raw.githubusercontent.com/mithesh16/PolygonIDSchemas/main/FinancialStatement/financialStatement.jsonld",
+            "jsonSchema": "https://raw.githubusercontent.com/mithesh16/PolygonIDSchemas/main/FinancialStatement/schema.json"
         }
     },
     "required": [
@@ -110,7 +110,7 @@
                 "total-inventory",
                 "holder-name",
                 "date-of-issue",
-                "liablitites",
+                "liabilities",
                 "owner-equity"
             ],
             "properties": {
@@ -119,7 +119,7 @@
                 "holder-name": {"type": "string"},
                 "total-inventory": {"type": "integer"},
                 "date-of-issue":{"type":"string"},
-                "liablitites":{"type":"string"},
+                "liabilities":{"type":"string"},
                 "owner-equity":{"type":"integer"}
             }
         }
