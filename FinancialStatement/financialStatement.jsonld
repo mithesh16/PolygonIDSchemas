@@ -19,7 +19,6 @@
             "total-inventory": {"@id": "vocab:total-inventory","@type": "xsd:integer"},
             "holder-name": { "@id": "vocab:holder-name","@type": "xsd:string"},
             "date-of-issue":{ "@id": "vocab:date-of-issue","@type":"xsd:string"},
-            "liabilities":{ "@id": "vocab:branch","@type":"xsd:string"},
             "owner-equity":{ "@id": "vocab:owner-equity","@type":"xsd:integer"}
           }
         }
