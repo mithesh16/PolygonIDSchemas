@@ -1,0 +1,29 @@
+{
+    "@context": [
+      {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "FinancialStatement": {
+          "@id": "https://raw.githubusercontent.com/mithesh16/PolygonIDSchemas/main/VoterIDSchema/voterID.jsonld#VoterID",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "vocab": "https://raw.githubusercontent.com/mithesh16/PolygonIDSchemas/main/VoterIDSchema/voterId-vocab.md#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            
+            "total-cash": {"@id": "vocab:total-cash","@type": "xsd:integer"},
+            "total-inventory": {"@id": "vocab:total-inventory","@type": "xsd:integer"},
+            "holder-name": { "@id": "vocab:holder-name","@type": "xsd:string"},
+            "date-of-issue":{ "@id": "vocab:date-of-issue","@type":"xsd:string"},
+            "liabilities":{ "@id": "vocab:branch","@type":"xsd:string"},
+            "owner-equity":{ "@id": "vocab:owner-equity","@type":"xsd:integer"}
+          }
+        }
+    }
+    ]
+  }
+  
