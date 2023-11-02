@@ -8,11 +8,11 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "FinancialStatement": {
       "@id": "https://raw.githubusercontent.com/mithesh16/PolygonIDSchemas/main/FinancialStatement/financialStatement.jsonld#FinancialStatement",
-      "totalCash": {"@id": "vocab:total-cash", "@type": "xsd:integer"},
-      "totalInventory": {"@id": "vocab:total-inventory", "@type": "xsd:integer"},
-      "holderName": {"@id": "vocab:holder-name", "@type": "xsd:string"},
-      "dateOfIssue": {"@id": "vocab:date-of-issue", "@type": "xsd:string"},
-      "ownerEquity": {"@id": "vocab:owner-equity", "@type": "xsd:integer"}
+      "total-cash": {"@id": "vocab:total-cash", "@type": "xsd:integer"},
+      "total-inventory": {"@id": "vocab:total-inventory", "@type": "xsd:integer"},
+      "holder-name": {"@id": "vocab:holder-name", "@type": "xsd:string"},
+      "date-of-issue": {"@id": "vocab:date-of-issue", "@type": "xsd:string"},
+      "owner-equity": {"@id": "vocab:owner-equity", "@type": "xsd:integer"}
     }
   }
 }
