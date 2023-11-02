@@ -110,7 +110,6 @@
                 "total-inventory",
                 "holder-name",
                 "date-of-issue",
-                "liabilities",
                 "owner-equity"
             ],
             "properties": {
@@ -119,7 +118,6 @@
                 "holder-name": {"type": "string"},
                 "total-inventory": {"type": "integer"},
                 "date-of-issue":{"type":"string"},
-                "liabilities":{"type":"string"},
                 "owner-equity":{"type":"integer"}
             }
         }
